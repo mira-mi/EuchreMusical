@@ -17,7 +17,7 @@ project requirements:
 
 implementation:
 - You must implement game setup of 4 players
-- you must initialize a standard 28 card euchre deck (accidently did 24 based on research)
+- you must initialize a standard 28 card euchre deck 
 - Your eucher deck cannot be passed by value
 - You must partition 4 players into 2 teams.
 - Each players gets 2 cards in the first deal and 3 cards in the second.
