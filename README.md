@@ -8,6 +8,7 @@ This is for my Program 420 class also know as C++ 2. I was tasked with making a 
 - Win the game if your team is the first to earn 10 points.
 
 These is the rules for my class.
+
 project requirements:
 
 - Your solution must build with cmake
@@ -16,13 +17,18 @@ project requirements:
 
 implementation:
 - You must implement game setup of 4 players
-- you must initialize a standard 28 card euchre deck
+- you must initialize a standard 28 card euchre deck (accidently did 24 based on research)
 - Your eucher deck cannot be passed by value
 - You must partition 4 players into 2 teams.
 - Each players gets 2 cards in the first deal and 3 cards in the second.
-- During the bidding phase if no player calls trump then the round ends and redeal
-- Players cannot go all-in
+- During the bidding phase if no player calls trump then the round ends and redeal (didn't work)
+- Players cannot go all-in (couldn't get that working right even with looking at other all in codes)
 - Each won hand is 1 point. play uniil a team has won 10 points
 - Calling trump and losing the hand results in a lost point
 
-The compiler I used was a linx provided on Visual Studio 2022 as a download because Visual Studio Code wouldn't download cMake or allow for Makefiles.
+The compiler I used was a linux provided on Visual Studio 2022 as a download because Visual Studio Code wouldn't download cMake or allow for Makefiles. I haven't figured out why yet but I have been debugging the problem on my laptop. 
+
+Forgot some comments in my code that I'll add here:
+- I used geeks for geeks to help with the player problems.
+- I also used the card game "Go Fish" to help me fix some deck problems I was having.
+
