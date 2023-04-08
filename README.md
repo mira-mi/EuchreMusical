@@ -1,1 +1,28 @@
-# EuchreMusical
+# Euchre Musical
+## (It's Just Euchre, But I'm Dramatic)
+
+This is for my Program 420 class also know as C++ 2. I was tasked with making a bot that could play against other bots as well as play until a team reaches 10 points.Here are the rules for the game below.
+- Play Euchre with 4 players split into teams of 2. Use a deck of cards with the aces, kings, queens, jacks, 10s, and 9s of each suit.
+- Rounds last for 5 turns, or “tricks.” Each turn, players place 1 card down on the table. The card with the highest value wins the trick.
+- Score points for your team if you win a majority of the tricks during a round.
+- Win the game if your team is the first to earn 10 points.
+
+These is the rules for my class.
+project requirements:
+
+- Your solution must build with cmake
+- Your solution must be hosted on github
+- You can use whatever editor/compiler you want just let me know how to compile it in a README.md file in the root of your project
+
+implementation:
+- You must implement game setup of 4 players
+- you must initialize a standard 28 card euchre deck
+- Your eucher deck cannot be passed by value
+- You must partition 4 players into 2 teams.
+- Each players gets 2 cards in the first deal and 3 cards in the second.
+- During the bidding phase if no player calls trump then the round ends and redeal
+- Players cannot go all-in
+- Each won hand is 1 point. play uniil a team has won 10 points
+- Calling trump and losing the hand results in a lost point
+
+The compiler I used was a linx provided on Visual Studio 2022 as a download because Visual Studio Code wouldn't download cMake or allow for Makefiles.
