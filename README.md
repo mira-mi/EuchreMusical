@@ -1,7 +1,7 @@
 # Euchre Musical
 ## (It's Just Euchre, But I'm Dramatic)
 
-This is for my Program 420 class also know as C++ 2. I was tasked with making a bot that could play against other bots as well as play until a team reaches 10 points.Here are the rules for the game below.
+This is for my Program 420 class also know as C++ 2. I was tasked with making a bot that could play against other bots as well as play until a team reaches 10 points. Here are the rules for the game below.
 - Play Euchre with 4 players split into teams of 2. Use a deck of cards with the aces, kings, queens, jacks, 10s, and 9s of each suit.
 - Rounds last for 5 turns, or “tricks.” Each turn, players place 1 card down on the table. The card with the highest value wins the trick.
 - Score points for your team if you win a majority of the tricks during a round.
