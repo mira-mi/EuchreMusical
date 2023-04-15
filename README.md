@@ -32,3 +32,7 @@ Forgot some comments in my code that I'll add here:
 - I used geeks for geeks to help with the player problems.
 - I also used the card game "Go Fish" to help me fix some deck problems I was having.
 
+## New Update
+- User input for team 1, sadly team 2 hasn't gotten that far
+- more comments
+
