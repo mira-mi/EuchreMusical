@@ -1,5 +1,0 @@
-C:/Users/mhunt/source/repos/euchrethemusical/out/build/x64-debug/CMakeFiles/edit_cache.dir
-C:/Users/mhunt/source/repos/euchrethemusical/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/mhunt/source/repos/euchrethemusical/out/build/x64-debug/euchrethemusical/CMakeFiles/euchrethemusical.dir
-C:/Users/mhunt/source/repos/euchrethemusical/out/build/x64-debug/euchrethemusical/CMakeFiles/edit_cache.dir
-C:/Users/mhunt/source/repos/euchrethemusical/out/build/x64-debug/euchrethemusical/CMakeFiles/rebuild_cache.dir
