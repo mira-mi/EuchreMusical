@@ -35,4 +35,4 @@ Forgot some comments in my code that I'll add here:
 ## New Update
 - User input for team 1, sadly team 2 hasn't gotten that far
 - more comments
-- the file known as 'more musical' is the one that should be used
+- the file known as [more musical](https://github.com/mira-mi/EuchreMusical/tree/main/moremusical/euchrethemusical) is the one that should be used
