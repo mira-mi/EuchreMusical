@@ -3,6 +3,7 @@
 
 This is for my Program 420 class also know as C++ 2. I was tasked with making a bot that could play against other bots as well as play until a team reaches 10 points.
 - use file named [musicL](https://github.com/mira-mi/EuchreMusical/tree/main/biddingmusicL/euchrethemusical) for the game.
+- if you wanna see the fixed bidding it's the file named [euchrethemusical](https://github.com/mira-mi/EuchreMusical/tree/main/euchrethemusical). I was more stubborn than the problem and realized the mistake.
  
 Here are the rules for the game below.
 - Play Euchre with 4 players split into teams of 2. Use a deck of cards with the aces, kings, queens, jacks, 10s, and 9s of each suit.
