@@ -1,15 +1,12 @@
-﻿# CMakeList.txt : Top-level CMake project file, do global configuration
-# and include sub-projects here.
+﻿# CMakeList.txt : CMake project for euchrethemusical, include source and define
+# project specific logic here.
 #
-cmake_minimum_required (VERSION 3.8)
 
-# Enable Hot Reload for MSVC compilers if supported.
-if (POLICY CMP0141)
-  cmake_policy(SET CMP0141 NEW)
-  set(CMAKE_MSVC_DEBUG_INFORMATION_FORMAT "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>")
+# Add source to this project's executable.
+add_executable (euchrethemusical "euchrethemusical.cpp" "euchrethemusical.h" "deck.h" "deck.cpp" "play.h" "play.cpp"      "checkcards.h" "checkcards.cpp" "gamerounds.h"  "gamerounds.cpp")
+
+if (CMAKE_VERSION VERSION_GREATER 3.12)
+  set_property(TARGET euchrethemusical PROPERTY CXX_STANDARD 20)
 endif()
 
-project ("euchrethemusical")
-
-# Include sub-projects.
-add_subdirectory ("euchrethemusical")
+# TODO: Add tests and install targets if needed.
