@@ -42,3 +42,5 @@ Forgot some comments in my code that I'll add here:
 - The file known as [musicL](https://github.com/mira-mi/EuchreMusical/tree/main/biddingmusicL/euchrethemusical) is the one that should be used. If you click the file name in the text above you can go to the folder (also included in the top)
 - So, in short, when you get to the bidding phase to actual get to the phases, you have to put in 'no' to go all the way through while 'yes' will result in an immediate shut down and no points will go through.
 - I am debugging the issue though
+## Newer Update 
+- Bidding phase works correctly now and it's a whole lot better. The file for the working one is [euchrethemusical](https://github.com/mira-mi/EuchreMusical/tree/main/euchrethemusical).
