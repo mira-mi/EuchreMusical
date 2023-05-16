@@ -25,10 +25,10 @@ implementation:
 - Your eucher deck cannot be passed by value
 - You must partition 4 players into 2 teams.
 - Each players gets 2 cards in the first deal and 3 cards in the second.
-- During the bidding phase if no player calls trump then the round ends and redeal (didn't work)
-- Players cannot go all-in (couldn't get that working right even with looking at other all in codes)
+- During the bidding phase if no player calls trump then the round ends and redeal 
+- Players cannot go all-in 
 - Each won hand is 1 point. play uniil a team has won 10 points
-- Calling trump and losing the hand results in a lost point
+- Calling trump and losing the hand results in a lost point (doesn't work all that well)
 
 The compiler I used was a linux provided on Visual Studio 2022 as a download because Visual Studio Code wouldn't download cMake or allow for Makefiles. I haven't figured out why yet but I have been debugging the problem on my laptop. 
 
